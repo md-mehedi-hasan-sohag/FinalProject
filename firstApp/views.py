@@ -5,4 +5,4 @@ from django.http import HttpResponse
 
 # Create your views here.
 def home(request):
-    return HttpResponse('Fardin, I love you')
+    return render(request, 'firstApp/index.html')
