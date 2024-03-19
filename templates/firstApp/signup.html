@@ -1,7 +1,25 @@
 {% load static %}
 <!DOCTYPE html>
 <html>
+<style>
+  /* CSS for custom button */
+.custom-button {
+  width: 100%;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-decoration: none; /* Added to remove underline if used in anchor tag */
+}
+.custom-button:hover {
+  background-color: #45a049;
+}
 
+</style>
 <head>
   <!-- Basic -->
   <meta charset="utf-8" />
@@ -220,7 +238,7 @@
             <label for="confirm-password">Confirm Password</label>
             <input type="password" id="confirm-password" name="confirm-password" required>
         </div>
-        <button type="submit">Sign Up</button>
+        <button type="submit" class="custom-button">Sign Up</button>
         <p class="redirect-link">Already a member? <a href="{% url 'signin' %}">Signin</a></p>
     </form>
 </div>

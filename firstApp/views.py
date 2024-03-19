@@ -54,8 +54,6 @@ def signup(request):
         new_user.last_name = lastname
         new_user.save()
 
-        # next class will be about how to handle errors
-        # and redirecting to view functions rather than rendering templates
-        return HttpResponse('User created successfully')
+        return render(request, 'firstApp/signin.html')
 
     return render(request, 'firstApp/signup.html')

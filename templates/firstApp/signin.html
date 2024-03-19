@@ -1,7 +1,26 @@
 {% load static %}
 <!DOCTYPE html>
 <html>
+<style>
+  /* CSS for custom button */
+.custom-button {
+  width: 100%;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-decoration: none; /* Added to remove underline if used in anchor tag */
+}
 
+.custom-button:hover {
+  background-color: #45a049;
+}
+
+</style>
 <head>
   <!-- Basic -->
   <meta charset="utf-8" />
@@ -204,7 +223,7 @@
         <label for="password">Password</label>
         <input type="password" id="password" name="password" required>
     </div>
-    <button type="submit">Sign Up</button>
+    <button type="submit" class="custom-button">Log In</button>
     <p class="redirect-link">Not a member? <a href="{% url 'signup' %}">Register now</a></p>
 </form>
 </div>

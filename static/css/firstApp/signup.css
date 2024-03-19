@@ -1,90 +1,90 @@
 /* CSS for form section */
 .signup-container {
-    background-color: #f8f9fa;
-    padding: 50px 0;
-  }
-  
-  .signup-form {
-    max-width: 400px;
-    margin: 0 auto;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-    padding: 40px;
-  }
-  
-  .signup-form h2 {
-    text-align: center;
-    margin-bottom: 30px;
-    color: #333;
-    font-size: 24px;
-  }
-  
-  .input-group {
-    margin-bottom: 25px;
-  }
-  
-  .input-group label {
-    display: block;
-    margin-bottom: 8px;
-    color: #555;
-    font-weight: bold;
-  }
-  
-  .input-group input[type="text"],
-  .input-group input[type="email"],
-  .input-group input[type="password"] {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 6px;
-    font-size: 16px;
-    transition: border-color 0.3s;
-  }
-  
-  .input-group input[type="text"]:focus,
-  .input-group input[type="password"]:focus {
-    outline: none;
-    border-color: #007bff;
-  }
-  
-  .input-group button {
-    width: 100%;
-    padding: 14px;
-    background-color: #007bff;
-    color: green;
-    border: none;
-    border-radius: 6px;
-    cursor: pointer;
-    font-size: 18px;
-    transition: background-color 0.3s;
-  }
-  
-  .input-group button:hover {
-    background-color: #0056b3;
-  }
-  
-  .redirect-link {
-    text-align: center;
-    margin-top: 20px;
-  }
-  
-  .redirect-link a {
-    color: #007bff;
-    text-decoration: none;
-    font-size: 16px;
-  }
-  
-  .redirect-link a:hover {
-    text-decoration: underline;
-  }
-  
-  .form-errors {
-    background-color: #f8d7da;
-    color: #721c24;
-    border: 1px solid #f5c6cb;
-    border-radius: 4px;
-    padding: 8px 12px;
-    margin-bottom: 15px;
-  }
-  
+  background-color: #f8f9fa;
+  padding: 50px 0;
+}
+
+.signup-form {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+}
+
+.signup-form h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+  font-size: 24px;
+}
+
+.input-group {
+  margin-bottom: 25px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 8px;
+  color: #555;
+  font-weight: bold;
+}
+
+.input-group input[type="text"],
+.input-group input[type="email"],
+.input-group input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  transition: border-color 0.3s;
+}
+
+.input-group input[type="text"]:focus,
+.input-group input[type="password"]:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.input-group button {
+  width: 100%;
+  padding: 14px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s;
+}
+
+.input-group button:hover {
+  background-color: #0056b3;
+}
+
+.redirect-link {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.redirect-link a {
+  color: #007bff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.redirect-link a:hover {
+  text-decoration: underline;
+}
+
+.form-errors {
+  background-color: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
+  border-radius: 4px;
+  padding: 8px 12px;
+  margin-bottom: 15px;
+}
+
