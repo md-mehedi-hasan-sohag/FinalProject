@@ -17,13 +17,20 @@ def signin(request):
         if user is not None:
             login(request, user)
             return HttpResponse('User logged in successfully')
-        if '@' in username:
+        if '@gmail.com' in username:
             user = User.objects.filter(email=username).first()
-            if user is not None:
+            if user is not None:                #tasmi77#tasmi@gmail.com#12345
                 username = user.username
         if user is not None:
             login(request, user)
             return HttpResponse('User logged in successfully')
+        if '@admin.com' in username:
+            user = User.objects.filter(email=username).first()
+            if user is not None:                #sohag@admin.com#asdfg
+                username = user.username
+        if user is not None:
+            login(request, user)
+            return render(request, 'firstApp/adminhome.html')
         return render(request, 'firstApp/signin.html', {'error': 'Invalid credentials'})
     return render(request, 'firstApp/signin.html')
 
